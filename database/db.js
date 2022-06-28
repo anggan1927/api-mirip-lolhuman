@@ -3,9 +3,9 @@ var __path = process.cwd(),
      { color } = require(__path + '/lib/color.js')
 
 // Connection URL
-var url = 'mongodb+srv://ariaptra11:Helenasyg3@cluster0.omwus.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+var url = 'https://zahirr-web.herokuapp.com';
 try {
-if(url == 'mongodb+srv://ariaptra11:Helenasyg3@cluster0.omwus.mongodb.net/myFirstDatabase?retryWrites=true&w=majority') throw console.log(color('Configurasi database, var url belum diisi','red'));
+if(url == 'https://zahirr-web.herokuapp.com') throw console.log(color('Configurasi database, var url belum diisi','red'));
 } catch (e) {
 	return;
 	}
